@@ -10,8 +10,8 @@
   }
    header('Access-Control-Allow-Origin: *');  
    header('Content-Type:application/json');
-   require_once("../config/conexion.php"); 
-   require_once("../models/Socios_negocio.php");
+   require_once("../../config/conexion.php"); 
+   require_once("../../Socios/models/Socios_negocio.php");
    $socios_negocio = new Socios_negocio(); 
   
  
